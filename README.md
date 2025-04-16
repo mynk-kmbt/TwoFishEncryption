@@ -69,6 +69,16 @@ For I/O communication, we attempted to implement UART. While the TX (transmit) f
 - **Intermediate Value Verification:**  
  Debugging internal states of the encryption algorithm in hardware was non-trivial. The reference materials lacked detailed explanation of the complete logic, so we had to cross-verify every intermediate value with a Python implementation to ensure correctness at each stage of the pipeline.
 
+# Demonstration
+
+In this section, you will find a demonstration of the project including a PowerPoint presentation and an instructional video.
+
+### PowerPoint Presentation
+You can view the detailed PowerPoint presentation of the project by following this [link](https://iitgnacin-my.sharepoint.com/:p:/g/personal/23110136_iitgn_ac_in/EaISYMfziCNPiQT4n5hlWA0BT_RfnCoEmD-s7qzQqLva4w?e=03WOjh).
+
+### Instructional Video
+An instructional video that demonstrates the workings of the project can be found here: [Video Link](<insert_your_video_link>).
+
 # References
 
 ### Algorithm Understanding
