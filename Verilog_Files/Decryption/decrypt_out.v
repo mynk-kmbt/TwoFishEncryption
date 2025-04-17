@@ -46,7 +46,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
 
                assign {t00,t01,t02,t03} = in_whiten;
 
-            FuncF_out funcf_inst0(
+            FuncF_out_de funcf_inst0(
                 .R0(t00), 
                 .R1(t01),
                 .R2(t02), 
@@ -62,7 +62,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
             );
     
 
-            FuncF_out funcf_inst1(
+            FuncF_out_de funcf_inst1(
                 .R0(t12), 
                 .R1(t13),
                 .R2(t10), 
@@ -78,7 +78,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
             );
     
 
-            FuncF_out funcf_inst2(
+            FuncF_out_de funcf_inst2(
                 .R0(t22), 
                 .R1(t23),
                 .R2(t20), 
@@ -94,7 +94,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
             );
     
 
-            FuncF_out funcf_inst3(
+            FuncF_out_de funcf_inst3(
                 .R0(t32), 
                 .R1(t33),
                 .R2(t30), 
@@ -110,7 +110,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
             );
     
 
-            FuncF_out funcf_inst4(
+            FuncF_out_de funcf_inst4(
                 .R0(t42), 
                 .R1(t43),
                 .R2(t40), 
@@ -126,7 +126,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
             );
     
 
-            FuncF_out funcf_inst5(
+            FuncF_out_de funcf_inst5(
                 .R0(t52), 
                 .R1(t53),
                 .R2(t50), 
@@ -142,7 +142,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
             );
     
 
-            FuncF_out funcf_inst6(
+            FuncF_out_de funcf_inst6(
                 .R0(t62), 
                 .R1(t63),
                 .R2(t60), 
@@ -158,7 +158,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
             );
     
 
-            FuncF_out funcf_inst7(
+            FuncF_out_de funcf_inst7(
                 .R0(t72), 
                 .R1(t73),
                 .R2(t70), 
@@ -174,7 +174,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
             );
     
 
-            FuncF_out funcf_inst8(
+            FuncF_out_de funcf_inst8(
                 .R0(t82), 
                 .R1(t83),
                 .R2(t80), 
@@ -190,7 +190,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
             );
     
 
-            FuncF_out funcf_inst9(
+            FuncF_out_de funcf_inst9(
                 .R0(t92), 
                 .R1(t93),
                 .R2(t90), 
@@ -206,7 +206,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
             );
     
 
-            FuncF_out funcf_inst10(
+            FuncF_out_de funcf_inst10(
                 .R0(t102), 
                 .R1(t103),
                 .R2(t100), 
@@ -222,7 +222,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
             );
     
 
-            FuncF_out funcf_inst11(
+            FuncF_out_de funcf_inst11(
                 .R0(t112), 
                 .R1(t113),
                 .R2(t110), 
@@ -238,7 +238,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
             );
     
 
-            FuncF_out funcf_inst12(
+            FuncF_out_de funcf_inst12(
                 .R0(t122), 
                 .R1(t123),
                 .R2(t120), 
@@ -254,7 +254,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
             );
     
 
-            FuncF_out funcf_inst13(
+            FuncF_out_de funcf_inst13(
                 .R0(t132), 
                 .R1(t133),
                 .R2(t130), 
@@ -270,7 +270,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
             );
     
 
-            FuncF_out funcf_inst14(
+            FuncF_out_de funcf_inst14(
                 .R0(t142), 
                 .R1(t143),
                 .R2(t140), 
@@ -286,7 +286,7 @@ module decrypt_out(input [127:0] plain_text, input [127:0] key, output [127:0] e
             );
     
 
-            FuncF_out funcf_inst15(
+            FuncF_out_de funcf_inst15(
                 .R0(t152), 
                 .R1(t153),
                 .R2(t150), 
