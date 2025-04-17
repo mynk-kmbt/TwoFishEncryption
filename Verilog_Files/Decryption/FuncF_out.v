@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-module FuncF_out(input [31:0] R0,
+module FuncF_out_de(input [31:0] R0,
                 input [31:0] R1,
                 input [31:0] R2,
                 input [31:0] R3,
