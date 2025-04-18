@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 
-module top_module(input [15:0]bits,input clk,reset,mode_in, output reg [7:0]LED,output reset_led, clk_led,mode_led, output [4:0] state_led);
+module top_module(input [15:0]bits,input man_clk,reset,mode_in, output reg [7:0]LED,output reset_led, clk_led,mode_led, output [4:0] state_led);
 
 reg [4:0] state;
 reg [255:0] buffer;
@@ -9,7 +9,7 @@ reg mode;
 wire [127:0]ET;
 wire [127:0] cypher;
 wire [127:0] plain;
-assign clk_led=clk;
+assign clk_led=man_clk;
 assign reset_led=reset;
 assign state_led=state;
 assign mode_led=mode;
@@ -19,7 +19,7 @@ assign mode_led=mode;
 
 assign ET=mode?plain:cypher;
 
-always@(posedge clk , posedge reset, posedge mode_in)
+always@(posedge man_clk , posedge reset, posedge mode_in)
 
         
     if (reset) begin
