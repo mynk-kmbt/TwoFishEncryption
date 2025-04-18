@@ -20,13 +20,15 @@ The project was developed as part of the ES204 Digital Systems course.
 
 # Files
 
-- encrypt_out.v – Final output processing module, managing ciphertext formatting after encryption rounds.
+Almost all the files in encryption and decryption process remains same except the FuncF_out and the top module that intigerates all modules to perform final task
+
+- encrypt_out.v / decrypt_out.v – Final output processing module, managing ciphertext/plaintext formatting after encryption rounds.
 
 - encrypt_testbench.v – Testbench module simulating the entire encryption pipeline for functional verification.
 
 - input_whitening.v – Handles input whitening step by XORing plaintext with the round of subkeys.
 
-- FuncF_out.v – Manages output logic from the F-function, preparing data for further processing in the encryption round.
+- FuncF_out.v / FuncF_out_decryption.v – Manages output logic from the F-function, preparing data for further processing in the encryption round.
 
 - F_function.v – Implements the F-function core of Twofish, combining G-functions and key mixing for round operations.
 
@@ -51,9 +53,11 @@ The project was developed as part of the ES204 Digital Systems course.
 
 # FPGA Configuration
 
-The design is modular, allowing easy adaptation to different FPGA boards. The top-level module integrates encryption/decryption with key scheduling. Modify the I/O ports and constraints file according to the specific FPGA board you are working with.
+The source code mostly uses structral coding facilitating easy adaptation to different FPGA boards. The top-level module seamlessly integrates encryption/decryption logic with key scheduling. To use the design on a specific FPGA board, users should modify the I/O ports accordingly.
 
-For I/O communication, we attempted to implement UART. While the TX (transmit) functionality works perfectly and allows communication with a PC, the RX (receive) module could not be successfully implemented. As a workaround, we stored multiple plaintext–key pairs as internal registers. The user can interact with the design by selecting a specific pair through manual input (e.g., switches or buttons), and the corresponding ciphertext is transmitted to the PC via UART TX.
+For communication, we attempted to implement UART. While the TX (transmit) functionality works reliably—enabling successful data transmission to a PC—the RX (receive) module could not be completed successfully. As a workaround, we stored multiple plaintext–key-cyphertext pairs as internal registers within the design. Users can interact with the system by manually selecting a specific pair through FPGA switches. The corresponding ciphertext/plaintext (depending on encryption or decryption) is then transmitted to the PC via the working UART TX line.
+
+Additionally, since the UART RX functionality remains incomplete, we have also provided an alternative implementation using FPGA switches and LEDs for I/O interaction. This version enables users to select inputs and view outputs directly on the FPGA board, and the associated files for this implementation are included here.
 
 # Challenges Faced
 
