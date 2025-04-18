@@ -59,6 +59,9 @@ For communication, we attempted to implement UART. While the TX (transmit) funct
 
 Additionally, since the UART RX functionality remains incomplete, we have also provided an alternative implementation using FPGA switches and LEDs for I/O interaction. This version enables users to select inputs and view outputs directly on the FPGA board, and the associated files for this implementation are included here.
 
+
+NOTE : All the constraints uploaded in this repository are for NEXYS4 DDR,
+
 # Challenges Faced
 
 - **UART RX Implementation Failure:**  
