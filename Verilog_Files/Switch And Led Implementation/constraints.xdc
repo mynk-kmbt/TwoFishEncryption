@@ -1,4 +1,3 @@
-set_property PACKAGE_PIN P18 [get_ports clk]
 set_property PACKAGE_PIN V16 [get_ports clk_led]
 set_property PACKAGE_PIN M18 [get_ports mode_in]
 set_property PACKAGE_PIN T15 [get_ports mode_led]
@@ -68,4 +67,6 @@ set_property IOSTANDARD LVCMOS33 [get_ports {state_led[3]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {state_led[2]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {state_led[1]}]
 set_property IOSTANDARD LVCMOS33 [get_ports {state_led[0]}]
-set_property CLOCK_DEDICATED_ROUTE FALSE
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets clk_led_OBUF]
+set_property PACKAGE_PIN P18 [get_ports man_clk]
+set_property IOSTANDARD LVCMOS33 [get_ports man_clk]
