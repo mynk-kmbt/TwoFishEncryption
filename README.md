@@ -84,7 +84,7 @@ In this section, you will find a demonstration of the project including a PowerP
 You can view the detailed PowerPoint presentation of the project by following this [link](https://iitgnacin-my.sharepoint.com/:p:/g/personal/23110136_iitgn_ac_in/EaISYMfziCNPiQT4n5hlWA0B7a2BhbNJG31n4_IqoY5M2Q?e=tw99HG).
 
 ### Instructional Video
-An instructional video that demonstrates the workings of the project can be found here: [Video Link]([<insert_your_video_link>](https://iitgnacin-my.sharepoint.com/:v:/g/personal/23110204_iitgn_ac_in/EdG1uQZFPPZPhT0HKHSzna8BprMSwNI0Zd5K3alLj9ZVEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Bk0RUc)).
+An instructional video that demonstrates the workings of the project can be found here: [Video Link](https://iitgnacin-my.sharepoint.com/:v:/g/personal/23110204_iitgn_ac_in/EdG1uQZFPPZPhT0HKHSzna8BprMSwNI0Zd5K3alLj9ZVEQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Bk0RUc).
 
 # References
 
