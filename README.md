@@ -94,7 +94,7 @@ An instructional video that demonstrates the workings of the project can be foun
 - [The Twofish Encryption Algorithm – Official Paper by Schneier et al. (PDF)](https://www.schneier.com/wp-content/uploads/2016/02/paper-twofish-paper.pdf)
 
 ### Galois Field multiplier
-- [Efficient Galois Field Multiplier for Twofish – IEEE Xplore](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=803685)
+- [Efficient Galois Field Multiplier – IEEE Xplore](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=803685)
 
 ### Output Verification
 - [Twofish Python Implementation by K-Czaplicki – GitHub](https://github.com/K-Czaplicki/TwoFish/blob/main/TwoFish.py#L423)
